@@ -1,0 +1,1502 @@
+/* CSS files add styling rules to your content */
+
+html {
+  scroll-behaviour: smooth;
+}
+
+body {
+  font-family: "Google Sans Text", Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  paddding: 0;
+  margin: 0;
+}
+
+.home-logo {
+  position: relative;
+  top: 30px;
+}
+/*error404*/
+
+.navbar404 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  top: 0;
+}
+
+.logo404 {
+  cursor: pointer;
+}
+
+.navlinks404 {
+  position: relative;
+  justify-content: space-between;
+  display: inline-block;
+  list-style: none;
+  left: 40px;
+}
+
+.navlinks404 li {
+  display: inline-block;
+  padding: 0px 18px;
+}
+
+.navlinks404 li a {
+  position: relative;
+  margin: 2px;
+  left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #111;
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks404: hover {
+  color: #d8222f;
+}
+
+.message404 h1 {
+  padding: 70px 10%;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.message404 p {
+  padding: 75px 10%;
+  font-weight: 400;
+}
+
+.googlefooter {
+  display: block;
+  margin: 150px;
+}
+
+.footertext {
+  font-weight: 300;
+}
+
+.intro {
+  padding: 1 2px;
+}
+
+.container2 {
+  display: block;
+  position: relative;
+  padding: 10px 5px 70%;
+  bottom: 250px;
+  margin: 70px;
+  float: right;
+  width: auto;
+}
+
+.container2 a {
+  font-weight: 350;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111;
+}
+
+/*aboutpg*/
+
+.Title {
+  font-size: 30px;
+  font-weight: 300;
+  padding: 60px 10%;
+}
+
+.about-heroimg {
+  width: 100%;
+  height: auto;
+  padding: 2px 10%;
+}
+
+.about-text {
+  cursor: pointer;
+  padding: 50px 10%;
+  font-weight: 350;
+}
+
+.intro {
+  padding: 1 2px;
+}
+
+.container2 {
+  display: block;
+  position: relative;
+  padding: 10px 5px 70%;
+  bottom: 250px;
+  margin: 70px;
+  float: right;
+  width: auto;
+}
+
+.container2 a {
+  font-weight: 350;
+  font-size: 14px;
+  text-decoration: none;
+  color: #111;
+}
+
+.home-logo {
+  padding: 2px 44%;
+}
+
+.navlinks {
+  display: flex;
+  list-style: none;
+  margin: 14px 36%;
+  position: relative;
+  right: 8px;
+}
+
+.navlinks li {
+  margin: 12px;
+  position: relative;
+  text-decoration: none;
+}
+
+.navlinks li a {
+  font-size: 15px;
+  margin: 6px;
+  color: #111;
+  font-weight: 500;
+}
+
+.navlinks404 a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+.navlinks404 a.active {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+.navlinks a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+.navlinks a.active {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+
+.home-nav {
+  cursor: pointer;
+}
+
+.fa-search:before {
+  position: relative;
+  left: 30px;
+  top: 123x;
+  cursor: pointer;
+  margin: 280px;
+  font-size: 20px;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.herobox {
+  position: relative;
+  width: 100%;
+  right: 5px;
+  bottom: 52px;
+  padding: 20px 2%;
+}
+
+.container {
+  margin-bottom: 6rem;
+  position: relative;
+  left: 15px;
+  top: 18px;
+  background: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  padding: 32px;
+}
+
+.container:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.container h1 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 400;
+  left: 20px;
+  bottom: 10px;
+}
+.container h4 {
+  padding: 3px 1%;
+  position: relative;
+  left: 12px;
+  bottom: 10px;
+  font-size: 18px;
+}
+
+.container p {
+  padding: 3px 1%;
+  position: relative;
+  left: 12px;
+  font-size: 17px;
+  bottom: 10px;
+}
+
+.container a {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  padding: 3px 1%;
+  font-size: 18px;
+  font-weight: 300;
+  color: #111;
+}
+
+.newsfeed h4 {
+  position: relative;
+  top: 12px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 22rem;
+  margin-top: 2rem;
+}
+
+.newsfeed a {
+  position: relative;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 80%;
+}
+
+.signup a {
+  position: relative;
+  right: 355px;
+  bottom: 645px;
+}
+
+.signup .box2 {
+  position: relative;
+  left: 800px;
+  bottom: 315px;
+  width: 480px;
+  height: 90px;
+  background: #f2f2f2;
+  overflow: hidden;
+  transition: box-shadow 0.15s(0.4, 0, 0.2, 1);
+}
+
+.signup.box2 :hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+
+.newsfeed-boxes p {
+  font-size: 14px;
+}
+
+.newsfeed-boxes h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.tag {
+  position: relative;
+  left: 215px;
+  top: 30px;
+  font-size: 12px;
+}
+
+.news-texts {
+  position: relative;
+  font-size: 14.5px;
+  left: 212px;
+  top: 90px;
+  font-weight: 450;
+}
+.newsfeed h2 {
+  position: relative;
+  left: 215px;
+  top: 35px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.news-pic {
+  position: relative;
+  left: 215px;
+  top: 55px;
+}
+
+.news-box1 {
+  position: relative;
+  left: 810px;
+  bottom: 455px;
+}
+
+.news-box2 {
+  position: relative;
+  left: 810px;
+  bottom: 420px;
+}
+
+.news-box3 {
+  position: relative;
+  left: 810px;
+  bottom: 380px;
+}
+
+.signup img {
+  position: relative;
+  left: 1145px;
+  bottom: 410px;
+}
+
+.newsletter-title {
+  position: relative;
+  left: 820px;
+  bottom: 470px;
+  font-size: 15px;
+}
+
+.signup a {
+  position: relative;
+  right: 395px;
+  bottom: 470px;
+}
+
+/*next section*/
+
+.home-sect2 ui {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 15px 0;
+}
+
+.home-sect2 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 300px;
+}
+
+.home-sect.gallery1 h3 {
+  position: relative;
+  bottom: 280px;
+  left: 220px;
+}
+
+.home-sect.gallery2 h3 {
+  position: relative;
+  bottom: 280px;
+  left: 20px;
+}
+
+.home-sect.gallery3 h3 {
+  position: relative;
+  bottom: 220px;
+  left: 227px;
+}
+
+.home-sect.gallery4 h3 {
+  position: relative;
+  bottom: 220px;
+  left: 14px;
+}
+.home-sect.gallery5 h3 {
+  position: relative;
+  bottom: 150px;
+  left: 212px;
+}
+
+.home-sect.gallery1 p {
+  position: relative;
+  bottom: 270px;
+  left: 220px;
+  font-size: 14px;
+}
+
+.home-sect.gallery2 p {
+  position: relative;
+  bottom: 270px;
+  left: 20px;
+  font-size: 14px;
+}
+
+.home-sect.gallery3 p {
+  position: relative;
+  bottom: 210px;
+  left: 227px;
+  font-size: 14px;
+}
+
+.home-sect.gallery4 p {
+  position: relative;
+  bottom: 210px;
+  left: 15px;
+  font-size: 14px;
+}
+
+.home-sect.gallery5 p {
+  position: relative;
+  bottom: 135px;
+  left: 215px;
+  font-size: 14px;
+}
+
+.mono-links {
+  position: relative;
+  bottom: 260px;
+  left: 190px;
+  color: #111;
+}
+
+.home-sect.gallery1 img {
+  position: relative;
+  left: 220px;
+}
+
+.home-sect.gallery3 img {
+  position: relative;
+  left: 220px;
+  bottom: 245px;
+}
+
+.home-sect.gallery2 img {
+  position: relative;
+  left: 15px;
+}
+
+.home-sect.gallery4 img {
+  position: relative;
+  left: 15px;
+  bottom: 245px;
+}
+.home-sect.gallery5 img {
+  position: relative;
+  left: 220px;
+  bottom: 200px;
+}
+
+.home-sect.gallery1 a {
+  position: relative;
+  bottom: 260px;
+  left: 220px;
+  color: #111;
+  font-size: 14px;
+}
+
+.home-sect.gallery2 a {
+  position: relative;
+  bottom: 260px;
+  left: 20px;
+  color: #111;
+    font-size: 14px;
+}
+
+.home-sect.gallery3 a {
+  position: relative;
+  bottom: 200px;
+  left: 225px;
+  color: #111;
+    font-size: 14px;
+}
+
+.home-sect.gallery4 a {
+  position: relative;
+  bottom: 200px;
+  left: 15px;
+  color: #111;
+    font-size: 14px;
+}
+
+.home-sect.gallery5 a {
+  position: relative;
+  bottom: 125px;
+  left: 215px;
+  color: #111;
+    font-size: 14px;
+}
+
+.hometestimonial1 img {
+  width: 4%;
+  height: auto;
+  position: relative;
+  left: 780px;
+  bottom: 640px;
+  border-radius: 155px;
+}
+
+.hometestimonial1 p {
+  position: relative;
+  left: 780px;
+  bottom: 660px;
+  font-weight: 450;
+  font-size: 22px;
+}
+
+.hometestimonial1 h4 {
+  position: relative;
+  left: 860px;
+  bottom: 700px;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.hometestimonial1 a {
+  position: relative;
+  left: 800px;
+  bottom: 635px;
+  font-weight: 450;
+  font-size: 16px;
+  color: #111;
+  font-weight: 500;
+}
+
+/*typocollection*/
+.typocollection h3 {
+  position: relative;
+  left: 200px;
+  bottom: 360px;
+  font-size: 30px;
+}
+
+.typocollection h5 {
+  position: relative;
+  left: 200px;
+  bottom: 360px;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.typocollection p {
+  position: relative;
+  left: 200px;
+  bottom: 305px;
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.typocollection a {
+  position: relative;
+  left: 1170px;
+  bottom: 410px;
+  font-weight: 650;
+  font-size: 12px;
+}
+
+.imgcarousell .typocollection p {
+  position: relative;
+  left: 200px;
+  bottom: 320px;
+  font-weight: 450;
+  font-size: 18px;
+}
+
+.imgcarousel1 {
+  position: relative;
+  left: 550px;
+  bottom: 440px;
+}
+
+.imgcarousel1 h3 {
+  position: relative;
+  left: 10px;
+  top: 15px;
+  font-size: 17px;
+  font-weight: 450;
+}
+
+.imgcarousel1 p {
+  position: relative;
+  left: 10px;
+  top: 25px;
+  font-size: 12px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.imgcarousel1 a {
+  position: relative;
+  left: 10px;
+  top: 35px;
+  font-size: 12px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.imgcarousel2 {
+  position: relative;
+  left: 850px;
+  bottom: 750px;
+}
+
+.imgcarousel2 h3 {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.imgcarousel2 p {
+  position: relative;
+  left: 12px;
+  top: 25px;
+  font-size: 12px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.imgcarousel2 a {
+  position: relative;
+  left: 10px;
+  top: 35px;
+  font-size: 12px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.imgcarousel3 {
+  position: relative;
+  left: 1150px;
+  bottom: 1025px;
+}
+
+.imgcarousel3 h3 {
+  position: relative;
+  left: 15px;
+  top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.imgcarousel3 p {
+  position: relative;
+  left: 12px;
+  top: 25px;
+  font-size: 12px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.imgcarousel3 a {
+  position: relative;
+  left: 10px;
+  top: 35px;
+  font-size: 12px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.carou-btn {
+  position: relative;
+  top: 80px;
+  left: 100px;
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 80px;
+  box-shadow: 3px 3px 3px 3px #C2C2C2;
+}
+
+.fa-arrow-circle-right:before {
+  position: relative;
+  width: 90px;
+  height: 60px;
+}
+
+/*3rd last*/
+.subsect-grid ui {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.home-subsect.gallery1 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 825px;
+  left: 155px;
+}
+
+.home-subsect.gallery2 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 1318px;
+  left: 745px;
+}
+
+.home-subsect.gallery3 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 1180px;
+  left: 155px;
+}
+
+.home-subsect.gallery4 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 1650px;
+  left: 755px;
+}
+
+.home-subsect.gallery5 img {
+  position: relative;
+  width: 510px;
+  height: 370px;
+  bottom: 1480px;
+  left: 755px;
+}
+
+.home-subsect.gallery1 h3 {
+  position: relative;
+  bottom: 800px;
+  left: 155px;
+  font-size: 20px;
+}
+
+.home-subsect.gallery2 h3 {
+  position: relative;
+  bottom: 1285px;
+  left: 750px;
+}
+
+.home-subsect.gallery3 h3 {
+  position: relative;
+  bottom: 1140px;
+  left: 155px;
+  font-size: 500;
+  font-size: 20px;
+  font-size: 500;
+  font-size: 20px;
+}
+
+.home-subsect.gallery4 h3 {
+  position: relative;
+  bottom: 1600px;
+  left: 755px;
+  font-size: 500;
+  font-size: 20px;
+}
+.home-subsect.gallery5 h3 {
+  position: relative;
+  bottom: 1450px;
+  left: 760px;
+  font-size: 500;
+  font-size: 20px;
+}
+
+.home-subsect.gallery1 p {
+  position: relative;
+  bottom: 780px;
+  left: 155px;
+  font-size: 14px;
+}
+
+.home-subsect.gallery2 p {
+  position: relative;
+  bottom: 1270px;
+  left: 750px;
+  font-size: 14px;
+}
+
+.home-subsect.gallery3 p {
+  position: relative;
+  bottom: 1120px;
+  left: 157px;
+  font-size: 14px;
+}
+
+.home-subsect.gallery4 p {
+  position: relative;
+  bottom: 1580px;
+  left: 755px;
+  font-size: 14px;
+}
+
+.home-subsect.gallery5 p {
+  position: relative;
+  bottom: 1430px;
+  left: 760px;
+  font-size: 14px;
+}
+
+.home-subsect.gallery1 a {
+  position: relative;
+  bottom: 780px;
+  left: 155px;
+  color: #111;
+}
+
+.home-subsect.gallery2 a {
+  position: relative;
+  bottom: 1270px;
+  left: 750px;
+  color: #111;
+}
+
+.home-subsect.gallery3 a {
+  position: relative;
+  bottom: 1115px;
+  left: 158px;
+  color: #111;
+}
+
+.home-subsect.gallery4 a {
+  position: relative;
+  bottom: 1570px;
+  left: 755px;
+  color: #111;
+}
+
+.home-subsect.gallery5 a {
+  position: relative;
+  bottom: 1410px;
+  left: 760px;
+  color: #111;
+}
+
+.hometestimonial2 img {
+  width: 4%;
+  height: auto;
+  position: relative;
+  left: 180px;
+  bottom: 1940px;
+  border-radius: 155px;
+}
+
+.hometestimonial2 p {
+  position: relative;
+  left: 180px;
+  bottom: 1960px;
+  font-weight: 450;
+  font-size: 22px;
+}
+
+.hometestimonial2 h4 {
+  position: relative;
+  left: 220px;
+  bottom: 1700px;
+  font-weight: 450;
+  font-size: 16px;
+}
+
+.hometestimonial2 a {
+  position: relative;
+  left: 190px;
+  bottom: 1950px;
+  font-weight: 450;
+  font-size: 16px;
+  color: #111;
+  font-weight: 500;
+}
+
+.hometestimonial2 h6 {
+  position: relative;
+  left: 255px;
+  bottom: 1965px;
+  font-weight: 450;
+  font-size: 16px;
+  color: #111;
+  font-weight: 400;
+}
+
+.Latestsect h3 {
+  position: relative;
+  bottom: 1750px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*end section*/
+
+.latestcarousel1 {
+  position: relative;
+  left: 190px;
+  bottom: 1700px;
+}
+
+.latestcarousel1 p {
+  position: relative;
+  left: 1px;
+  top: 25px;
+  font-size: 14px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.latestcarousel1 i {
+  position: relative;
+  left: 5px;
+  top: 50px;
+  font-size: 20px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.latestcarousel2 {
+  position: relative;
+  left: 570px;
+  bottom: 2000px;
+}
+
+.latestcarousel2 i {
+  position: relative;
+  left: 5px;
+  top: 48px;
+  font-size: 20px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.latestcarousel2 p {
+  position: relative;
+  left: 1px;
+  top: 18px;
+  font-size: 14px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.latestcarousel3 {
+  position: relative;
+  left: 960px;
+  bottom: 2315px;
+}
+
+.latestcarousel3 p {
+  position: relative;
+  left: 1px;
+  top: 25px;
+  font-size: 14px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.latestcarousel3 i {
+  position: relative;
+  left: 5px;
+  top: 48px;
+  font-size: 20px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.latestcarousel4 {
+  position: relative;
+  left: 1360px;
+  bottom: 2610px;
+}
+
+.latestcarousel4 p {
+  position: relative;
+  left: 1px;
+  top: 25px;
+  font-size: 14px;
+  font-weight: 450;
+  line-spacing: 1;
+}
+
+.latestcarousel4 i {
+  position: relative;
+  left: 5px;
+  top: 48px;
+  font-size: 20px;
+  font-weight: 450;
+  color: #111;
+  line-spacing: 1;
+}
+
+.carou-btn2 {
+  position: relative;
+  top: 140px;
+  right: 120px;
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 80px;
+  box-shadow: 3px 3px 3px 3px #C2C2C2;
+}
+
+.final-subsect.gallery1 img {
+  position: relative;
+  bottom: 2400px;
+  left: 180px;
+}
+
+.final-subsect.gallery1 h3 {
+  position: relative;
+  bottom: 2360px;
+  left: 180px;
+}
+
+.final-subsect.gallery1 p {
+  position: relative;
+  bottom: 2350px;
+  left: 180px;
+}
+
+.final-subsect.gallery1 a {
+  position: relative;
+  bottom: 2330px;
+  left: 180px;
+  color: #111;
+}
+
+.final-subsect.gallery2 img {
+  position: relative;
+  bottom: 2865px;
+  left: 745px;
+}
+
+.final-subsect.gallery2 h3 {
+  position: relative;
+  bottom: 2825px;
+  left: 760px;
+}
+
+.final-subsect.gallery2 p {
+  position: relative;
+  bottom: 2810px;
+  left: 760px;
+}
+
+.final-subsect.gallery2 a {
+  position: relative;
+  bottom: 2800px;
+  left: 760px;
+  color: #111;
+}
+
+.final-subsect.gallery3 img {
+  position: relative;
+  bottom: 2750px;
+  left: 170px;
+}
+
+.final-subsect.gallery3 p {
+  position: relative;
+  bottom: 2685px;
+  left: 170px;
+}
+
+.final-subsect.gallery3 h3 {
+  position: relative;
+  left: 170px;
+  bottom: 2700px;
+}
+
+.final-subsect.gallery3 a {
+  position: relative;
+  bottom: 2670px;
+  left: 170px;
+  color: #111;
+}
+
+.hometestimonial3 p {
+  position: relative;
+  left: 760px;
+  bottom: 3200px;
+  font-size: 22px;
+}
+
+.hometestimonial3 h6 {
+  position: relative;
+  left: 840px;
+  bottom: 3210px;
+  font-size: 16px;
+}
+
+.hometestimonial3 img {
+  width: 4%;
+  height: auto;
+  position: relative;
+  left: 750px;
+  bottom: 3180px;
+  border-radius: 155px;
+}
+
+.hometestimonial3 a {
+  width: 4%;
+  height: auto;
+  position: relative;
+  left: 770px;
+  bottom: 3190px;
+  border-radius: 155px;
+  color: #111;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.LatestSect{
+  width: 0px
+    height: 0px;
+}
+/*resources*/
+.res-logo {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+
+.res-navlinks ul{
+  display: flex;
+  position: relative;
+  list-style: none;
+  left: 65px;
+  top: 32px;
+  border-bottom: 3px solid transparent;
+}
+
+.res-navlinks a {
+  font-size: 20px;
+  margin: 20px;
+  color: #333;
+  position: relative;
+  bottom: 85px;
+  right: 80px;
+}
+
+
+
+.res-navlinks a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+.res-navlinks a.active {
+  text-decoration: none;
+  border-bottom: 3px solid orange;
+}
+
+.res-icon {
+  font-size: 16px;
+  position: relative;
+  left: 1180px;
+  bottom: 110px;
+}
+
+.main-title {
+  font-size: 32px;
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+}
+
+.res-main.img1 h4{
+  position: relative;
+  left: 50px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.resicon1{
+  position:relative;
+  left: 330px;
+  bottom: 40px;
+}
+
+.res-main.img1 p {
+  position: relative;
+  left: 50px;
+  bottom: 25px;
+  font-size: 16px;
+}
+.heroimg {
+ position: relative;
+  left: 450px;
+  bottom: 295px;
+}
+
+.list-links{
+  display: block;
+  position: relative;
+  font-size: 16px;
+  left: 28px;
+  bottom: 12px;
+  text-decoration: underline;
+}
+
+.res-main.img2 h4{
+  position: relative;
+  left: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  bottom: 1000px;
+}
+
+.res-main.img2 p {
+  position: relative;
+  left: 50px;
+  bottom: 1025px;
+  font-size: 16px;
+}
+
+.resicon2{
+  position:relative;
+  left: 330px;
+  bottom: 1040px;
+}
+
+.list-links2{
+  display: block;
+  position: relative;
+  font-size: 16px;
+  left: 50px;
+  bottom: 1005px;
+  text-decoration: underline;
+}
+
+.heroimg2 {
+ position: relative;
+  left: 450px;
+  bottom: 1245px;
+}
+
+.resource-sect{
+  position: relative;
+  bottom: 600px;
+}
+
+
+.main-resimg4{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg5{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg6{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg7{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg8{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg9{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg10{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg11{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg12{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg13{
+  position:relative;
+  left: 50px;
+}
+
+.main-resimg14{
+  position:relative;
+  left: 50px;
+}
+
+.res-logo1 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo2 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo3 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo4 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo5 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo6 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo7 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo8 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo9 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo10 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-logo11 {
+  position: relative;
+  left: 470px;
+  bottom: 20px;
+}
+
+.res-title1
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title2
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title3
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title4
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title5
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title6
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title7
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title8
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title9
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title10
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
+
+.res-title11
+{
+  position: relative;
+  left: 50px;
+  top: 10px;
+  font-size: 25px;
+  color: #111;
+}
